@@ -5,12 +5,12 @@ const cartReducer = (
 	action
 ) => {
 	switch (action.type) {
-		case REMOVE_ITEM:
-			const { list } = action;
-			return list;
 		case ADD_ITEM:
 			const { product } = action;
 			return [...state, product];
+		case REMOVE_ITEM:
+			const { list } = action;
+			return list;
 		default:
 			return state;
 	}
