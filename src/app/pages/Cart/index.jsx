@@ -30,7 +30,7 @@ const Cart = () => {
 				{cart !== null && cart.length !== 0 ? (
 					cart.map((product) => (
 						<CartItemCard
-							key={product}
+							key={Math.ceil(Math.random() * product.id) + 1}
 							dipatchedItem={product}
 							product={product}
 						/>

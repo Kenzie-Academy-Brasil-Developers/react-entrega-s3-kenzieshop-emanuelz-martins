@@ -4,15 +4,15 @@ import ProductCard from '../../components/ProductCard';
 import { Container, Products } from './style';
 
 const Home = () => {
-	const products = useSelector((store) => store.products);
+	const productsList = useSelector(({ products }) => products);
 
 	return (
 		<Container>
 			<Header />
 			<Products>
-				{products.map((product) => (
+				{productsList.map((product) => (
 					<ProductCard
-						key={product}
+						key={product.id}
 						dispatchedItem={product}
 						product={product}
 					/>

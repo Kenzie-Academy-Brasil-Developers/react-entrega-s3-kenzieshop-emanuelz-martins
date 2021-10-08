@@ -1,5 +1,6 @@
 const products = [
 	{
+		id: 1000,
 		name: 'Delsie Stella',
 		brand: 'Clarks',
 		price: 139.95,
@@ -8,6 +9,7 @@ const products = [
 			'https://i.pinimg.com/originals/d7/12/fc/d712fc2a391932e3f38a04d125737d60.jpg',
 	},
 	{
+		id: 1001,
 		name: 'Edell',
 		brand: 'Bandolino',
 		price: 58.95,
@@ -16,6 +18,7 @@ const products = [
 			'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.46NaOUMxCHRZtpK5Xrmt9wHaHa%26pid%3DApi&f=1',
 	},
 	{
+		id: 1002,
 		name: 'Haven',
 		brand: 'Aerosoles',
 		price: 57.99,
@@ -24,6 +27,7 @@ const products = [
 			'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.j-bVPAysZlK5_dJB2HDd8AHaHa%26pid%3DApi&f=1',
 	},
 	{
+		id: 1003,
 		name: 'Jessica Bohemia Slide',
 		brand: 'Frye',
 		price: 183.99,
@@ -32,6 +36,7 @@ const products = [
 			'https://static.netshoes.com.br/produtos/tamanco-feminino-gigil-salto-grosso-plataforma/19/NQZ-0011-219/NQZ-0011-219_zoom4.jpg?ts=1601569159&ims=544x',
 	},
 	{
+		id: 1004,
 		name: 'Gelata Fresca',
 		brand: 'Clarks',
 		price: 139.95,
@@ -40,6 +45,7 @@ const products = [
 			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PBE5gQ7gbEN-eCWn9BJksfIoYvOCIqD5yD9W2P6g1c1fp9omOidnqzxEoGfTr_jqxQg&usqp=CAU',
 	},
 	{
+		id: 1005,
 		name: 'Estee',
 		brand: 'Trotters',
 		price: 129.95,
@@ -48,6 +54,7 @@ const products = [
 			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQDCocmGpBzJp5_LVLHoZiD2arfOpM2M4mTQ&usqp=CAU',
 	},
 	{
+		id: 1006,
 		name: 'Simone',
 		brand: 'Wanted',
 		price: 39.95,
